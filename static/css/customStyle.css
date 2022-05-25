@@ -1,0 +1,4 @@
+img[alt="Jacob Kapitein Avatar"] {
+    border-radius: 100%;
+    filter: drop-shadow(0 0 15px rgb(19, 19, 19));
+}

@@ -1,0 +1,3 @@
+[submodule "themes/kortfolio"]
+	path = themes/kortfolio
+	url = https://github.com/jacobkapitein/kortfolio

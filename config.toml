@@ -1,0 +1,17 @@
+baseURL = 'http://jacobkapitein.com/'
+languageCode = 'en-us'
+title = 'Jacob Kapitein - Portfolio'
+theme = 'kortfolio'
+
+[params]
+    custom_css = ["/css/customStyle.css"]
+
+[menu]
+    [[menu.main]]
+        identifier = 'home'
+        name = 'Home'
+        url = '/'
+    [[menu.main]]
+        identifier = 'projects'
+        name = 'Projects'
+        url = '/projects'
