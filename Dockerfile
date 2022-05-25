@@ -33,4 +33,6 @@ RUN hugo -d ./dist
 FROM nginx:stable-alpine
 
 COPY --from=build-step /build/dist /usr/share/nginx/html
-COPY --from=build-step /build/dist/index.html /usr/share/nginx/html
+COPY --from=build-step /build/dist/index.html /usr/share/nginx/html/index.html
+
+CMD ["nginx","-g","daemon off;"]
