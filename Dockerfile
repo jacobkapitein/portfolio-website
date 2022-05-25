@@ -30,7 +30,7 @@ COPY . /build
 RUN hugo -d ./dist
 
 # Serving step
-FROM nginx:stable-alpine
+FROM nginx:mainline-alpine
 
 COPY --from=build-step /build/dist /usr/share/nginx/html
 
