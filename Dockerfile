@@ -27,8 +27,8 @@ WORKDIR /build
 COPY . /build
 
 # Build static site
-RUN hugo
+RUN hugo -d ./dist
 
 # Serving step
 FROM nginx:stable-alpine
-COPY --from=build-step /build/public /usr/share/nginx/html
+COPY --from=build-step /build/dist /usr/share/nginx/html
