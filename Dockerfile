@@ -31,4 +31,6 @@ RUN hugo -d ./dist
 
 # Serving step
 FROM nginx:stable-alpine
+CMD rm /usr/share/nginx/html/index.html && \
+    rm /usr/share/nginx/html/50x.html
 COPY --from=build-step /build/dist /usr/share/nginx/html
