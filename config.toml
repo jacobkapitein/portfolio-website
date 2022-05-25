@@ -1,4 +1,4 @@
-baseURL = 'http://jacobkapitein.com/'
+baseURL = 'https://jacobkapitein.com/'
 languageCode = 'en-us'
 title = 'Jacob Kapitein - Portfolio'
 theme = 'kortfolio'

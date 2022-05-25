@@ -1,7 +1,7 @@
 ---
 title: "3D ISS Tracker"
 date: 2022-05-19T23:12:54+02:00
-draft: true
+draft: false
 ---
 
 # 3D ISS Tracker
@@ -29,4 +29,4 @@ During this project I overcame a few challenges.
 
 1. **Displacement maps.**
 I made use of displacement maps to make the globa a little more interesting. You can see the mountains sticking out of the globe. Those mountains are even on the real life place where they should be.
-2. **Calculating the ISS position.** This was by far the most challenging thing to do. To be honest, I'm not a math genius. This was challenging because I retrieve the ISS coordinates from a public API. The coordinates are delivered in a "longitude-latitude" format. How would one place those 2D coordinates on a 3D globe? I overcame this challenge by dividing it into smaller problems. Positioning the coordinates around a cilinder is easy. Then I proceeded to translate the cilinder to a globe.
+2. **Displaying the ISS position on a globe.** This was by far the most challenging thing to do. To be honest, I'm not a math genius. This was challenging because I retrieve the ISS coordinates from a public API. The coordinates are delivered in a "longitude-latitude" format. How would one place those 2D coordinates on a 3D globe? I overcame this challenge by dividing it into smaller problems. Positioning the coordinates around a cilinder is easy. Then I proceeded to translate the cilinder to a globe.
